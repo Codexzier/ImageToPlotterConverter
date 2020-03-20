@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ImageToPlotterConverter.Views.Menu.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="800">
+    <StackPanel Margin="5" Orientation="Horizontal">
+        <StackPanel.Resources>
+            <Style TargetType="Button" BasedOn="{StaticResource DefaultButton}">
+                <Setter Property="Margin" Value="5 0" />
+            </Style>
+        </StackPanel.Resources>
+        <Button Content="Open Image" Width="100" Click="ButtonOpenMain_Click" />
+        <Button Content="Save Result" Width="100" Click="ButtonSave_Click" />
+    </StackPanel>
+</UserControl>

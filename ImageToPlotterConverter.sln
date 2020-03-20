@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageToPlotterConverter", "ImageToPlotterConverter\ImageToPlotterConverter.csproj", "{87940C40-D2DD-416F-910A-91211C8639C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{95054185-2F20-4EEF-969F-A327E28876C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components.Ui.EventBus", "Components.Ui.EventBus\Components.Ui.EventBus.csproj", "{F95A02CC-93B9-48C7-A5F2-938C83FAB102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components.Ui.EventBus.Tests", "Components.Ui.EventBus.Tests\Components.Ui.EventBus.Tests.csproj", "{40ACE57F-DA92-41E5-A58D-F16FA67F585F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components.ImageToGraph", "Components.ImageToGraph\Components.ImageToGraph.csproj", "{5579D4AB-E77F-48A8-A0C3-53521C8E9770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components.ImageToGraph.Tests", "Components.ImageToGraph.Tests\Components.ImageToGraph.Tests.csproj", "{E74C9E21-58D8-4FF5-85D9-FEF26555EA40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87940C40-D2DD-416F-910A-91211C8639C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87940C40-D2DD-416F-910A-91211C8639C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87940C40-D2DD-416F-910A-91211C8639C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87940C40-D2DD-416F-910A-91211C8639C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95A02CC-93B9-48C7-A5F2-938C83FAB102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95A02CC-93B9-48C7-A5F2-938C83FAB102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95A02CC-93B9-48C7-A5F2-938C83FAB102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95A02CC-93B9-48C7-A5F2-938C83FAB102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40ACE57F-DA92-41E5-A58D-F16FA67F585F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ACE57F-DA92-41E5-A58D-F16FA67F585F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ACE57F-DA92-41E5-A58D-F16FA67F585F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ACE57F-DA92-41E5-A58D-F16FA67F585F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5579D4AB-E77F-48A8-A0C3-53521C8E9770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5579D4AB-E77F-48A8-A0C3-53521C8E9770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5579D4AB-E77F-48A8-A0C3-53521C8E9770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5579D4AB-E77F-48A8-A0C3-53521C8E9770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74C9E21-58D8-4FF5-85D9-FEF26555EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74C9E21-58D8-4FF5-85D9-FEF26555EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74C9E21-58D8-4FF5-85D9-FEF26555EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74C9E21-58D8-4FF5-85D9-FEF26555EA40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F95A02CC-93B9-48C7-A5F2-938C83FAB102} = {95054185-2F20-4EEF-969F-A327E28876C6}
+		{40ACE57F-DA92-41E5-A58D-F16FA67F585F} = {95054185-2F20-4EEF-969F-A327E28876C6}
+		{5579D4AB-E77F-48A8-A0C3-53521C8E9770} = {95054185-2F20-4EEF-969F-A327E28876C6}
+		{E74C9E21-58D8-4FF5-85D9-FEF26555EA40} = {95054185-2F20-4EEF-969F-A327E28876C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C146FA7B-28FD-4944-904D-1F1EC2D35FA6}
+	EndGlobalSection
+EndGlobal
