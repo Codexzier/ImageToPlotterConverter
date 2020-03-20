@@ -2,27 +2,15 @@
 using ImageToPlotterConverter.Views.Main;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ImageToPlotterConverter.Views.Menu
 {
-    /// <summary>
-    /// Interaction logic for MenuView.xaml
-    /// </summary>
     public partial class MenuView : UserControl
     {
         public MenuView()
@@ -56,8 +44,14 @@ namespace ImageToPlotterConverter.Views.Menu
             }
         }
 
+        private void ButtonSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         /// <summary>
         /// Resize the image to the specified width and height.
+        /// https://stackoverflow.com/questions/1922040/how-to-resize-an-image-c-sharp
         /// </summary>
         /// <param name="image">The image to resize.</param>
         /// <param name="width">The width to resize to.</param>
@@ -86,11 +80,6 @@ namespace ImageToPlotterConverter.Views.Menu
             }
 
             return destImage;
-        }
-
-        private void ButtonSave_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

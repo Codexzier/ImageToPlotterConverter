@@ -9,7 +9,6 @@ namespace ImageToPlotterConverter.Views.Main
 {
     public class PathPlotterBuilder
     {
-        [STAThread]
         public Path CreatePathLine(IDictionary<long, DrawPointItem> segments, Brush brush, int height, int width, double scale)
         {
             var pf = new PathFigure

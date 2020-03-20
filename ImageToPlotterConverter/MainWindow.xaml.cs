@@ -1,6 +1,4 @@
-﻿using Components.Ui.EventBus;
-using ImageToPlotterConverter.Views.Main;
-using System.Windows;
+﻿using System.Windows;
 
 namespace ImageToPlotterConverter
 {

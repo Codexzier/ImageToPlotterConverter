@@ -1,18 +1,12 @@
 ﻿using Components.ImageToGraph;
 using Components.Ui.EventBus;
-using Microsoft.Win32;
 using System;
 using System.Drawing;
-using System.Threading.Tasks;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace ImageToPlotterConverter.Views.Main
 {
-    /// <summary>
-    /// Interaction logic for MainView.xaml
-    /// </summary>
     public partial class MainView : UserControl, IDisposable
     {
         private readonly MainViewModel _viewModel;
@@ -37,7 +31,7 @@ namespace ImageToPlotterConverter.Views.Main
                     return false;
                 }
 
-             this.ConvertImageInTask(path);
+                this.ConvertImage(path);
 
                 return true;
             }
@@ -45,7 +39,7 @@ namespace ImageToPlotterConverter.Views.Main
             return false;
         }
 
-        private void ConvertImageInTask(string path)
+        private void ConvertImage(string path)
         {
             var converter = new ImageToGraphConverter();
             var bitmap = new Bitmap(path);
